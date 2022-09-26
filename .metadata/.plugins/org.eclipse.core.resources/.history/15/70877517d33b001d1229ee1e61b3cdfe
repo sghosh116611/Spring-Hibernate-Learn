@@ -1,0 +1,44 @@
+package com.luv2code.springboot.cruddemo.DAO;
+
+import java.util.List;
+
+import javax.persistence.EntityManager;
+import javax.swing.text.html.parser.Entity;
+import javax.websocket.Session;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+
+import com.luv2code.springboot.cruddemo.entity.Employee;
+
+@Repository
+public class EmployeeDAOJpaImpl implements EmployeeDAO {
+
+	@Autowired
+	private EntityManager entityManager;
+	
+	@Override
+	public List<Employee> findAll() {
+		Session currentSession = entityManager.unwrap(Session.class);
+		
+	}
+
+	@Override
+	public Employee findById(int Id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void saveEmployee(Employee employee) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void deleteById(int Id) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,23 @@
+package com.luv2code.aopdemo;
+
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.stereotype.Component;
+
+@Component
+public class MainDemoApp {
+	
+	public static void main(String[] args) {
+		
+		//load the spring config
+		AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(DemoConfig.class);
+		
+		//get the bean from spring container
+		
+		//call the business method
+		
+		//close the spring context
+		
+		
+	}
+
+}

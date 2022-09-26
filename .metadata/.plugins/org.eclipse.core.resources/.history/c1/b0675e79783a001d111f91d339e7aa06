@@ -1,0 +1,15 @@
+package com.luv2code.springdemo.rest;
+
+import org.springframework.web.bind.annotation.ControllerAdvice;
+import org.springframework.web.bind.annotation.ExceptionHandler;
+
+@ControllerAdvice
+public class CustomerExceptionHandler {
+
+	// Customer not found exception
+	@ExceptionHandler
+	public REsol
+	
+	
+	// Generic exception for other exception
+}

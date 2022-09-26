@@ -1,0 +1,28 @@
+package com.luv2code.springboot.cruddemo.entity;
+
+import javax.persistence.Column;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@javax.persistence.Entity
+@Table(name="employee")
+public class Entity {
+
+	// define the fields
+	
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@Column(name="id")
+	private int id;
+	private String firstName;
+	private String lastName;
+	
+	// define constructors
+	
+	// define the getter setter
+	
+	// define toString
+	
+}

@@ -1,0 +1,12 @@
+127.0.0.1 - - [19/Sep/2022:19:39:09 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [19/Sep/2022:19:39:10 +0530] "GET /mycoolwebapp/index.jsp HTTP/1.1" 200 61
+0:0:0:0:0:0:0:1 - - [19/Sep/2022:19:39:10 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+127.0.0.1 - - [19/Sep/2022:20:17:47 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [19/Sep/2022:20:17:48 +0530] "GET /spring-security-demo/ HTTP/1.1" 200 168
+127.0.0.1 - - [19/Sep/2022:20:35:00 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [19/Sep/2022:20:35:00 +0530] "GET /spring-security-demo/ HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [19/Sep/2022:20:35:00 +0530] "GET /spring-security-demo/login HTTP/1.1" 200 556
+0:0:0:0:0:0:0:1 - - [19/Sep/2022:20:35:04 +0530] "POST /spring-security-demo/login HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [19/Sep/2022:20:35:04 +0530] "GET /spring-security-demo/login?error HTTP/1.1" 200 664
+0:0:0:0:0:0:0:1 - - [19/Sep/2022:20:35:13 +0530] "POST /spring-security-demo/login HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [19/Sep/2022:20:35:14 +0530] "GET /spring-security-demo/ HTTP/1.1" 200 168

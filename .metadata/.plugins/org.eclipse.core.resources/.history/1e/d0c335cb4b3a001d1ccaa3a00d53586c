@@ -1,0 +1,13 @@
+package com.luv2code.springdemo.rest;
+
+public class StudentErrorResponse {
+
+	private String message;
+	private int status;
+	private long timeStamp;
+	
+	public StudentErrorResponse() {
+		// TODO Auto-generated constructor stub
+	}
+	
+}

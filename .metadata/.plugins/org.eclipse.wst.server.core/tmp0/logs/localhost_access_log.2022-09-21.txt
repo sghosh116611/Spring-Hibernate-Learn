@@ -1,0 +1,17 @@
+127.0.0.1 - - [21/Sep/2022:21:29:33 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [21/Sep/2022:21:29:34 +0530] "GET /spring-security-demo/ HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [21/Sep/2022:21:29:35 +0530] "GET /spring-security-demo/showLoginPage HTTP/1.1" 200 2152
+0:0:0:0:0:0:0:1 - - [21/Sep/2022:21:29:35 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [21/Sep/2022:21:29:54 +0530] "POST /spring-security-demo/authenticateTheUser HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [21/Sep/2022:21:29:54 +0530] "GET /spring-security-demo/ HTTP/1.1" 200 574
+0:0:0:0:0:0:0:1 - - [21/Sep/2022:21:29:58 +0530] "POST /spring-security-demo/logout HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [21/Sep/2022:21:29:58 +0530] "GET /spring-security-demo/showLoginPage?logout HTTP/1.1" 200 2308
+0:0:0:0:0:0:0:1 - - [21/Sep/2022:21:30:03 +0530] "POST /spring-security-demo/authenticateTheUser HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [21/Sep/2022:21:30:03 +0530] "GET /spring-security-demo/ HTTP/1.1" 200 760
+127.0.0.1 - - [21/Sep/2022:21:47:45 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [21/Sep/2022:21:47:45 +0530] "GET /spring-security-demo-09-jdbc-bcrypt/ HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [21/Sep/2022:21:47:46 +0530] "GET /spring-security-demo-09-jdbc-bcrypt/showLoginPage HTTP/1.1" 200 2167
+0:0:0:0:0:0:0:1 - - [21/Sep/2022:21:47:52 +0530] "POST /spring-security-demo-09-jdbc-bcrypt/authenticateTheUser HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [21/Sep/2022:21:47:53 +0530] "GET /spring-security-demo-09-jdbc-bcrypt/ HTTP/1.1" 200 589
+0:0:0:0:0:0:0:1 - - [21/Sep/2022:21:47:54 +0530] "POST /spring-security-demo-09-jdbc-bcrypt/logout HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [21/Sep/2022:21:47:54 +0530] "GET /spring-security-demo-09-jdbc-bcrypt/showLoginPage?logout HTTP/1.1" 200 2323

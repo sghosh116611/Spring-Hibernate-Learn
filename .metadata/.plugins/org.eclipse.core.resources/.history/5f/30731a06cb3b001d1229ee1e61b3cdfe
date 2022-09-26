@@ -1,0 +1,20 @@
+package com.luv2code.springboot.cruddemo.entity;
+
+import javax.persistence.Table;
+
+@javax.persistence.Entity
+@Table(name="employee")
+public class Entity {
+
+	// define the fields
+	private int id;
+	private String firstName;
+	private String lastName
+	
+	// define constructors
+	
+	// define the getter setter
+	
+	// define toString
+	
+}

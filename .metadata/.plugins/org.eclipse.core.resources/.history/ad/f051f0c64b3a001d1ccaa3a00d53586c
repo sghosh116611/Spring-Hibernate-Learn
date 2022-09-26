@@ -1,0 +1,9 @@
+package com.luv2code.springdemo.rest;
+
+public class StudentErrorResponse {
+
+	private String error;
+	private int status;
+	private long timeStamp;
+	
+}

@@ -1,0 +1,30 @@
+package com.luv2code.springboot.cruddemo.DAO;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.persistence.EntityManager;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.luv2code.springboot.cruddemo.entity.Employee;
+
+public class EmployeeDAOImpl implements EmployeeDAO {
+
+	@Override
+	public List<Employee> findAll() {
+		
+		private EntityManager entityManager;
+		
+		@Autowired
+		EmployeeDAOImpl(EntityManager entityManager){
+			entityManager = entityManager;
+		}
+		
+		List<Employee> employees = new ArrayList<>();
+		
+		return employees;
+		
+	}
+
+}
